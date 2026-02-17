@@ -1,0 +1,2 @@
+# Fritzi
+frida playground
