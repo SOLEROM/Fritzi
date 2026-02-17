@@ -1,0 +1,10 @@
+services:
+  frida:
+    build: .
+    container_name: fridalab
+    stdin_open: true
+    tty: true
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
